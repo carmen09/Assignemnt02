@@ -1,0 +1,162 @@
+:root {
+  --livingRoom: lightseagreen;
+  --kitchen: rgb(137, 207, 240);
+  --bedroom: #ff6961;
+  --bathroom: #cb99c9;
+  --garden: #89e894;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--livingRoom);
+}
+
+.description {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+#kitchenDoor {
+  position: absolute;
+  left: 40%;
+  background-color: var(--kitchen);
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bathroomDoor {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  background-color: var(--bathroom);
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bedroomDoor {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  background-color: var(--bedroom);
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gardenDoor1 {
+  position: absolute;
+  left: 0;
+  bottom: 74%;
+  background-color: var(--garden);
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gardenDoor2 {
+  position: absolute;
+  right: 0;
+  bottom: 74%;
+  background-color: var(--garden);
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tvRack {
+  position: absolute;
+  right: 35%;
+  bottom: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 80px;
+  background-color: antiquewhite;
+  padding: 0;
+  margin: 0;
+}
+
+#tv {
+  position: relative;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#couch {
+  position: absolute;
+  right: 35%;
+  bottom: 30%;
+  width: 400px;
+  height: 120px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carpet {
+  position: absolute;
+  right: 30%;
+  bottom: 25%;
+  width: 600px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#shoeRack {
+  position: absolute;
+  right: 35%;
+  bottom: 0;
+  width: 150px;
+  height: 30px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outsideDoor {
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  width: 150px;
+  height: 80px;
+  background-color: var(--garden);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

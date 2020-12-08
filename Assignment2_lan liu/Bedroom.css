@@ -1,0 +1,109 @@
+:root {
+  --livingRoom: lightseagreen;
+  --kitchen: rgb(137, 207, 240);
+  --bedroom: #ff6961;
+  --bathroom: #cb99c9;
+  --garden: #89e894;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bedroom);
+}
+
+.description {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+#livingDoor {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  background-color: var(--livingRoom);
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bed {
+  position: absolute;
+  left: 0;
+  background-color:	#9e3d34;
+  width: 350px;
+  height: 500px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  flex-direction: column;
+}
+
+#headboard {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  background-color: #58281f;
+  width: 350px;
+  height: 10%;
+  z-index: 20;
+}
+
+#nightstand {
+  position: absolute;
+  left: 21.8%;
+  top:0%;
+  background-color: #cb563e;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#desk {
+  position: absolute;
+  left: 45%;
+  bottom:0%;
+  background-color: #58281f;
+  width: 400px;
+  height: 150px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#window {
+  position: absolute;
+  left: 45%;
+  top:0%;
+  background-color: #feecc7;
+  width: 300px;
+  height: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#light {
+  position: absolute;
+  left: 40%;
+  bottom: 92%;
+  width: 450px;
+  height: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #fff 0%, rgba(237, 233, 147, 0) 100%);
+  z-index: -1;
+}

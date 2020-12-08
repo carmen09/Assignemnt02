@@ -1,0 +1,114 @@
+:root {
+  --livingRoom: lightseagreen;
+  --kitchen: rgb(137, 207, 240);
+  --bedroom: #ff6961;
+  --bathroom: #cb99c9;
+  --garden: #89e894;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bathroom);
+}
+
+.description {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+#livingDoor {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  background-color: var(--livingRoom);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toilet{
+  position: absolute;
+  bottom: 0%;
+  right: 60%;
+  width: 130px;
+  height: 40px;
+  border: 1px solid 	#ebf6fd;
+  background-color: 	#ebf6fd;
+}
+
+.toilet2{
+  position: absolute;
+  bottom: 0%;
+  right: 60%;
+  width: 130px;
+  height: 180px;
+  border: 1px solid 	#ebf6fd;
+  border-radius: 50%;
+  background-color: 	#ebf6fd;
+}
+
+#sink {
+  position: absolute;
+  top: 0%;
+  right: 55%;
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ebf6fd;
+  background-color: #dcc1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sinkSpan {
+  border-radius: 50%;
+  background-color:  #ebf6fd;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#showerArea {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 400px;
+  height: 100vh;
+  background-color: #98daf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tub {
+  background-color: #ebf6fd;
+  border-radius: 30%;
+  width: 350px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mat {
+  position: absolute;
+  top: 35%;
+  right: 25%;
+  width: 100px;
+  height: 250px;
+  background-color: #273149;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

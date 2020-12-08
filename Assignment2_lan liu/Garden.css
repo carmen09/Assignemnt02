@@ -1,0 +1,163 @@
+:root {
+  --livingRoom: lightseagreen;
+  --kitchen: rgb(137, 207, 240);
+  --bedroom: #ff6961;
+  --bathroom: #cb99c9;
+  --garden: #89e894;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--garden);
+}
+
+.description {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+
+#livingDoor1 {
+  position: absolute;
+  right: 13%;
+  top: 74%;
+  background-color: var(--livingRoom);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#livingDoor2 {
+  position: absolute;
+  left: 13%;
+  top: 74%;
+  background-color: var(--livingRoom);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kitchenDoor1 {
+  position: absolute;
+  right: 13%;
+  top: 48%;
+  background-color: var(--kitchen);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kitchenDoor2 {
+  position: absolute;
+  left: 13%;
+  top: 48%;
+  background-color: var(--kitchen);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#friendDoor {
+  position: absolute;
+  right: 0;
+  background-color: #b6c2e0;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inside {
+  position: absolute;
+  right: 25.5%;
+  bottom: 0;
+  background-color: #000000;
+  color: #a9ea5c;
+  width: 775px;
+  height: 394px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#table {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#center {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stool5, #stool6, #dinnerTable {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#dinnerTable {
+  background-color: #bda866;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stool4, #stool5, #stool6, #stool7 {
+  background-color:#bfd25d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kitchenWindow {
+  position: absolute;
+  right: 35%;
+  bottom: 52%;
+  background-color: #b6c2e0;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#light {
+  position: absolute;
+  right: 27%;
+  bottom: 47%;
+  width: 450px;
+  height: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #fff 0%, rgba(237, 233, 147, 0) 100%);
+  z-index: -1;
+}
